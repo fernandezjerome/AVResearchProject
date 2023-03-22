@@ -1,0 +1,21 @@
+// @use "/sass/modules/" as *;
+
+$colour1: #424680;
+$colour2: #1f2128;
+$colour3: #0f0f12;
+$colourLight: #b1b1b1;
+$colourPurple: #cdb7f9;
+
+//font-weight: map-get($font-weights, regular);
+$font-weights: (
+    "regular": 400,
+    "medium": 600,
+    "bold": 700,
+    "black": 900,
+);
+
+//font-weight: weight(bold);
+
+@function weight($weight-name) {
+    @return map-get($font-weights, $weight-name);
+}
