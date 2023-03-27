@@ -114,23 +114,21 @@ header h2 {
   font-size: 2.5rem;
 }
 
-.main {
-  background-color: #1f2128;
-  padding: 5rem;
-}
-
 footer {
   height: 150px;
   background-color: #0f0f12;
 }
 
 .main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-rows: auto auto;
+  margin-inline: auto;
+  justify-items: normal;
+  align-items: start;
+  width: min(100%, 71.25rem);
+  grid-template-columns: repeat(4, 1fr);
 }
 .main__movie {
-  width: 300px;
   margin: 1rem;
   border-radius: 3px;
   box-shadow: 0.2px 4px 5px rgba(0, 0, 0, 0.1);
