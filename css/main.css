@@ -119,6 +119,10 @@ footer {
   background-color: #0f0f12;
 }
 
+main {
+  background-color: rgb(39, 36, 36);
+}
+
 .main {
   display: grid;
   grid-template-rows: auto auto;

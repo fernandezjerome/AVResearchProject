@@ -13,7 +13,9 @@ footer {
     height: 150px;
     background-color: $colour3;
 }
-
+main {
+    background-color: rgb(39, 36, 36);
+}
 .main {
     display: grid;
     grid-template-rows: auto auto;
