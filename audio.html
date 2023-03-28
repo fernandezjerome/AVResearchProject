@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="css/main.css" rel="stylesheet" type="text/css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <div>
+                <audio src="audio/Hotel California.mp3"></audio>
+            </div>
+            <section class="details">
+                <div class="details__info">
+                    <div class="detail__img">
+                        <img src="images/audio1.jpg" alt="" />
+                    </div>
+                    <div class="details__copy">
+                        <div class="details__tittle">
+                            <h3>Cocaine Bear</h3>
+                            <p>
+                                An oddball group of cops, criminals, tourists
+                                and teens converge in a Georgia forest where a
+                                500-pound black bear goes on a murderous rampage
+                                after unintentionally ingesting cocaine.
+                            </p>
+                        </div>
+                        <div class="details__char">
+                            <h4>Genre:</h4>
+                            <p>Thriller</p>
+                        </div>
+                        <div class="details__char">
+                            <h4>Actors:</h4>
+                            <p>
+                                Keri Russell, Alden Ehrenreich, OShea Jackson
+                                Jr, Ray Liotta, Isiah Whitlock Jr
+                            </p>
+                        </div>
+                        <div class="details__char">
+                            <h4>Director:</h4>
+                            <p>
+                                Keri Russell, Alden Ehrenreich, OShea Jackson
+                                Jr, Ray Liotta, Isiah Whitlock Jr
+                            </p>
+                        </div>
+                        <div class="details__char">
+                            <h4>Country:</h4>
+                            <p>United States</p>
+                        </div>
+                        <section>
+                            <div class="audio-btn" id="controls">
+                                <div id="play">
+                                    <img
+                                        src="images/video-play.svg"
+                                        alt="play icon"
+                                    />
+                                </div>
+                                <div id="pause">
+                                    <img
+                                        src="images/video-pause.svg"
+                                        alt="pause icon"
+                                    />
+                                </div>
+                                <div id="restart">
+                                    <img
+                                        src="images/video-reset.svg"
+                                        alt="reset icon"
+                                    />
+                                </div>
+
+                                <div>
+                                    <img
+                                        src="images/video-volume.svg"
+                                        alt="volume icon"
+                                    />
+                                </div>
+
+                                <div id="volumeControl">
+                                    <input
+                                        type="range"
+                                        min="0"
+                                        max="100"
+                                        value="50"
+                                        id="volumeSlider"
+                                    />
+                                </div>
+                            </div>
+                            <div id="durationControl">
+                                <input
+                                    type="range"
+                                    min="0"
+                                    max="100"
+                                    value="0"
+                                    id="durationSlider"
+                                />
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+
+        <script src="js/audio.js"></script>
+    </body>
+</html>

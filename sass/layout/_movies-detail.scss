@@ -2,7 +2,7 @@
 
 .details {
     img {
-        @include imagefit(px(480));
+        width: 100%;
     }
     h3 {
         margin-top: px(20);
@@ -17,7 +17,7 @@
         }
     }
     color: $colourLight;
-    background-color: $colour2;
+    // background-color: $colour2;
     &__info {
         padding: px(20) 0;
         display: grid;

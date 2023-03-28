@@ -1,1 +1,16 @@
 @use "../modules" as *;
+
+.audio-btn {
+    margin-top: px(50);
+    display: flex;
+    gap: 10px;
+    img {
+        height: 20px;
+    }
+}
+#durationControl {
+    margin-top: px(20);
+    input {
+        width: 100%;
+    }
+}
