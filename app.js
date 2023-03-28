@@ -1,24 +1,36 @@
-const express = require("express"); // import the express package
-const app = express(); // create an express app
+const express = require("express");
+const app = express();
+const http = require("http");
+const server = http.createServer(app);
+
+// socket.io server instance
+// taken from socket.io documentation
 
 const port = process.env.PORT || 3000;
 
+//app.get is route handler
+
+// tell express where to find static web files
 app.use(express.static("public"));
-// this i route handler --> listen for upcoming request and send back the response
+// it is like genrating the request
 app.get("/", (req, res) => {
-    // this is pointing index.html --> shared page
     res.sendFile(__dirname + "/views/index.html");
 });
 
-app.get("/audio", (req, res) => {
+app.get("/video", (req, res) => {
+    // this is pointing index.htmk --> shared page
     res.sendFile(__dirname + "/views/audio.html");
 });
 
-app.get("/video", (req, res) => {
-    res.sendFile(__dirname + "/views/video.html");
+app.get("/audio", (req, res) => {
+    // this is pointing index.htmk --> shared page
+    res.sendFile(__dirname + "/views/audio.html");
 });
 
-// set up the server to listen for incoming connections at this point
-app.listen(port, () => {
+server.listen(port, () => {
     console.log(`listening on ${port}`);
 });
+
+// socket.io event handler
+// taken from socket.io documentation
+// this will run when a client connects and will log a message to the server console
