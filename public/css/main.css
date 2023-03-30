@@ -116,11 +116,6 @@ html {
   width: 100%;
 }
 
-header {
-  height: 100px;
-  background-color: #0f0f12;
-}
-
 footer {
   height: 150px;
   background-color: #0f0f12;
@@ -258,4 +253,29 @@ main {
   position: absolute;
   left: 1.25rem;
   bottom: 0.625rem;
+}
+
+.header {
+  background-color: rgb(23, 22, 22);
+}
+.header img {
+  width: 100px;
+}
+.header i {
+  color: white;
+  margin-right: 0.625rem;
+}
+.header__nav {
+  padding: 1.25rem 0;
+  display: grid;
+  grid-template-rows: auto auto;
+  margin-inline: auto;
+  justify-items: center;
+  align-items: center;
+  width: min(100%, 71.25rem);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+audio {
+  margin-top: 1.875rem;
 }
