@@ -1,0 +1,31 @@
+@use "../modules" as *;
+.playVid {
+    position: relative;
+
+    img {
+        cursor: pointer;
+        height: px(21);
+        margin-right: px(12);
+    }
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-inline: auto;
+    width: min(100% - px(40), px(1140));
+    video {
+        @include imagefit(px(320));
+        @include breakpoint(tablet) {
+            @include imagefit(px(400));
+        }
+        @include breakpoint(desktop) {
+            @include imagefit(px(563));
+        }
+        // width: 100%;
+        // height: 100%;
+    }
+    #controls {
+        display: flex;
+        position: absolute;
+        left: px(20);
+        bottom: px(10);
+    }
+}

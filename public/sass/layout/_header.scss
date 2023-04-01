@@ -1,0 +1,27 @@
+@use "../modules" as *;
+
+.header {
+    background-color: rgb(23, 22, 22);
+
+    img {
+        width: 100px;
+    }
+    i {
+        color: white;
+        margin-right: px(10);
+    }
+    &__nav {
+        padding: px(20) 0;
+        display: grid;
+        grid-template-rows: auto auto;
+        margin-inline: auto;
+        justify-items: center;
+        align-items: center;
+        width: min(100%, px(1140));
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+audio {
+    margin-top: px(30);
+}

@@ -1,0 +1,39 @@
+@use "../modules" as *;
+
+.details {
+    img {
+        width: 100%;
+    }
+    h3 {
+        margin-top: px(20);
+        font-size: px(30);
+        font-weight: 500;
+    }
+    &__tittle {
+        p {
+            font-style: italic;
+            font-size: px(15);
+            margin-bottom: px(20);
+        }
+    }
+    color: $colourLight;
+    // background-color: $colour2;
+    &__info {
+        padding: px(20) 0;
+        display: grid;
+        margin-inline: auto;
+        align-items: start;
+        grid-template-columns: 1fr 2fr;
+        gap: px(20);
+        grid-template-rows: auto auto;
+        justify-items: center;
+        width: min(100% - px(20), px(1140));
+    }
+    &__char {
+        display: flex;
+        gap: px(10);
+        p {
+            color: $colourPurple;
+        }
+    }
+}
