@@ -30,17 +30,18 @@ To install and run the project locally, you will need to have Node.js and NPM in
 
 This project is built using the following technologies:
 
-Node.js
-Express
-HTML
-CSS/SASS
-JavaScript
+-   Node.js
+-   Express
+-   HTML
+-   CSS/SASS
+-   JavaScript
 
 ## Author
 
 Jerome Fernandez
 
-License
+## License
+
 This project is licensed under the MIT license. See the LICENSE file for more details.
 
 ## Credits
