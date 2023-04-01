@@ -1,3 +1,4 @@
+<img src="/public/images/screenshot.jpg">
 # A/V Accessibility Research Project
 
 This project is a fully accessible Node/Express media application that includes an audio and a video file. The goal of the project is to research best practices for audio, video, and special needs accessibility, and to implement those best practices in the application.
