@@ -1,31 +1,48 @@
 # A/V Accessibility Research Project
 
+This project is a fully accessible Node/Express media application that includes an audio and a video file. The goal of the project is to research best practices for audio, video, and special needs accessibility, and to implement those best practices in the application.
+
 [Roadmap](https://docs.google.com/document/d/1s3AICMi65nfpkUY7lsO_CeOMht9Fcu97FLLyVNQOctk/edit)
 
-## Reference
+## Project Deliverables
 
-https://developer.mozilla.org/en-US/docs/Web/Accessibility
+Based on research and resources supplied, the following standard accessibility features have been implemented:
 
-## Prerequisites
+-   Size adjustments for text and media
+-   Visual contrast adjustments
+-   Tabbing for keyboard navigation
+-   ARIA attributes for screen readers
+-   Closed captioning for videos
+-   Transcripts for audio files
 
--   HTML
--   CSS
--   SASS
--   Javascript
--   Node and Express
+## Installation
+
+To install and run the project locally, you will need to have Node.js and NPM installed on your machine. Clone this repository to your local machine and run the following command to install the dependencies:
+
+-   `npm install`
+-   `npm start`
+-   if doesn't work you can try `npm audit fix --force`
+-   You can access the application by navigating to http://localhost:3000 in your web browser.
+
+## Technical Requirements
+
+This project is built using the following technologies:
+
+Node.js
+Express
+HTML
+CSS/SASS
+JavaScript
 
 ## Author
 
 Jerome Fernandez
 
-## License
+License
+This project is licensed under the MIT license. See the LICENSE file for more details.
 
-This project is licensed under the MIT[MIT]
-([MIT](https://choosealicense.com/licenses/mit/)) license
+## Credits
 
-Copyright (c) 2021 Jerome F
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Mozilla Developer Network - Web Accessibility: https://developer.mozilla.org/en-US/docs/Web/Accessibility
+LinkedIn Learning - UX Foundations: Accessibility: https://www.linkedin.com/learning/ux-foundations-accessibility-2/
+Third-party accessibility libraries and tools, as appropriate.
