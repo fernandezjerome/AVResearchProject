@@ -1,0 +1,40 @@
+{QTtext} {font:Tahoma}
+{plain} {size:20}
+{timeScale:30}
+{width:160} {height:32}
+{timestamps:absolute} {language:0}
+
+[00:00:04.02]If I could, then I would
+[00:00:07.11]I'll go wherever you will go
+[00:00:11.10]Way up high or down low
+[00:00:14.22]I'll go wherever you will go
+
+[00:00:18.22]And maybe I'll find out
+[00:00:22.02]A way to make it back someday
+[00:00:25.16]To watch you, to guide you
+[00:00:29.05]Through the darkest of your days
+[00:00:32.13]If a great wave shall fall
+[00:00:35.20]And fall upon us all
+[00:00:38.12]Then I hope there's someone out there
+[00:00:42.01]Who can bring me back to you
+
+[00:00:46.02]If I could, then I would
+[00:00:49.09]I'll go wherever you will go
+[00:00:53.05]Way up high or down low
+[00:00:56.20]I'll go wherever you will go
+
+[00:01:00.07]Run away with my heart
+[00:01:03.16]Run away with my hope
+[00:01:07.00]Run away with my love
+
+[00:01:10.05]I know now just quite how
+[00:01:14.07]My life and love might still go on
+[00:01:18.05]In your heart, in your mind
+[00:01:21.18]I'll stay with you for all of time
+
+[00:01:26.02]If I could turn back time
+[00:01:29.10]I'll go wherever you will go
+[00:01:33.04]If I could make you mine
+[00:01:36.12]I'll go wherever you will go
+
+[00:01:40.08]I'll go wherever you will go
